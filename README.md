@@ -43,7 +43,7 @@ a JSON document, or before transmitting such over-the-wire from server to browse
 ## npm repo
 
 ```
-$ npm install JSON.minify
+$ npm install jsonminify
 ```
 
 ##  npm source
