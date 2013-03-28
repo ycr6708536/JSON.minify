@@ -54,14 +54,15 @@ $ npm install https://github.com/fkei/JSON.minify.git
 
 # example
 
-```
-$ node
-> var jsonminify = require("jsonminify");
-undefined
-> jsonminify('{"key":"value"/** comment **/}')
-'{"key":"value"}'
-> JSON.minify('{"key":"value"/** comment **/}')
-'{"key":"value"}'
+
+```javascript
+var jsonminify = require("jsonminify");
+
+jsonminify('{"key":"value"/** comment **/}')
+>> '{"key":"value"}'
+
+JSON.minify('{"key":"value"/** comment **/}')
+>> '{"key":"value"}'
 ```
 
 # test
