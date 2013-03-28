@@ -1,0 +1,39 @@
+{
+    "name": "minify-json",
+    "version": "0.1.0",
+    "description": "JSON.minify() minifies blocks of JSON-like content into valid JSON by removing all whitespace *and* comments.",
+    "keywords": [
+        "node",
+        "json",
+        "JSON-like",
+        "comment"
+    ],
+    "homepage": "https://github.com/fkei/JSON.minify",
+    "bugs": {
+        "email": "kei.topaz@gmail.com",
+        "url": "https://github.com/fkei/JSON.minify/issues"
+    },
+    "author": {
+        "name": "Kei Funagayama",
+        "email": "kei.topaz@gmail.com",
+        "url": "https://github.com/fkei"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fkei/JSON.minify.git"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "jshint": "*",
+        "should": "*"
+    },
+    "engines": {
+        "node": ">=0.8.0",
+        "npm": ">=1.1.0"
+    },
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "main": "./minify.json.js"
+}
