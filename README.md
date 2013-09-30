@@ -65,6 +65,18 @@ JSON.minify('{"key":"value"/** comment **/}')
 >> '{"key":"value"}'
 ```
 
+# build
+
+```
+$ make
+```
+
+# release
+
+```
+$ make release
+```
+
 # test
 
 ```
@@ -76,6 +88,16 @@ $ make test
 ```
 $ make jshint
 ```
+
+# Document
+
+- [JSDoc - API Document](http://fkei.github.io/JSON.minify/docs/index.html)
+- [Plato - Report](http://fkei.github.io/JSON.minify/report/index.html)
+- [Mocha - Test result (HTML)](http://fkei.github.io/JSON.minify/TestDoc.html)
+
+# Web-Site
+
+**[Github pages - JSON.minify Home Page](http://fkei.github.io/JSON.minify/)**
 
 # LICENSE
 
