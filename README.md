@@ -65,6 +65,13 @@ JSON.minify('{"key":"value"/** comment **/}')
 >> '{"key":"value"}'
 ```
 
+# command-line
+
+Please use here. Use JSON.minify internally.
+
+**node-mjson** [https://github.com/fkei/node-mjson](https://github.com/fkei/node-mjson)
+
+
 # build
 
 ```
