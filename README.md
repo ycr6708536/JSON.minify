@@ -1,5 +1,8 @@
 # About
 
+![Travis CI](https://travis-ci.org/fkei/JSON.minify.png?branch=master)
+
+
 # Feature
 
 /*! JSON.minify()
