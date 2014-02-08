@@ -1,6 +1,6 @@
 {
     "name": "jsonminify",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "JSON.minify() minifies blocks of JSON-like content into valid JSON by removing all whitespace *and* comments.",
     "keywords": [
         "node",
