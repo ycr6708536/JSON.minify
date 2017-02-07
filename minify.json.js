@@ -35,7 +35,7 @@
             in_string = false,
             in_multiline_comment = false,
             in_singleline_comment = false,
-            tmp, tmp2, new_str = [], ns = 0, from = 0, lc, rc
+            tmp, tmp2, new_str = [], ns = 0, from = 0, rc=json,lc
         ;
 
         tokenizer.lastIndex = 0;
